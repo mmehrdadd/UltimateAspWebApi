@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateAspWebApi", "UltimateAspWebApi\UltimateAspWebApi.csproj", "{0362D928-79F4-46FC-972E-FC9C62FC0607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{02FD5E42-F826-49AF-96A5-0DB63D904159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{684C728B-FECB-4436-AB37-443BB21CB0E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0362D928-79F4-46FC-972E-FC9C62FC0607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0362D928-79F4-46FC-972E-FC9C62FC0607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0362D928-79F4-46FC-972E-FC9C62FC0607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0362D928-79F4-46FC-972E-FC9C62FC0607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FD5E42-F826-49AF-96A5-0DB63D904159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FD5E42-F826-49AF-96A5-0DB63D904159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FD5E42-F826-49AF-96A5-0DB63D904159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FD5E42-F826-49AF-96A5-0DB63D904159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684C728B-FECB-4436-AB37-443BB21CB0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684C728B-FECB-4436-AB37-443BB21CB0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684C728B-FECB-4436-AB37-443BB21CB0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684C728B-FECB-4436-AB37-443BB21CB0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
