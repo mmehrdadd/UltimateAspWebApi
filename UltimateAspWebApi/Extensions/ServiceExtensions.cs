@@ -1,4 +1,5 @@
 ﻿using Contracts;
+using LoggerService;
 using Microsoft.EntityFrameworkCore;
 using Repository;
 using Service;
@@ -22,7 +23,7 @@ namespace UltimateAspWebApi.Extensions
 
             });
         public static void ConfigureLoggerService(this IServiceCollection services) => 
-            services.AddSingleton<ILoggerManager, ILoggerManager>();
+            services.AddSingleton<ILoggerManager, LoggerManager>();
 
         public static void ConfigureServiceManager(this IServiceCollection services) =>
             services.AddScoped<IServiceManager, ServiceManager>();
